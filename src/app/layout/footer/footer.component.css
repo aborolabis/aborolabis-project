@@ -1,14 +1,16 @@
 hr{
-  margin-right: 100px;
-  margin-left: 100px;
-  color: coral;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  min-width: 400px;
+  border-top: 1px solid coral;
 }
 
 .footage {
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
-  width: 300px;
+  width: 400px;
   height: 100px;
   background-color: rgba(255, 127, 80, 0.2);
 }
@@ -25,7 +27,7 @@ hr{
 .link-toolbar {
   position: relative;
   padding-bottom: 5px;
-  padding-top: 7%;
+  padding-top: 15px;
   text-align: center;
   display: block;
 }
@@ -34,4 +36,5 @@ hr{
   color: coral;
   font-size: 150%;
   margin: 2% 2% 2% 2%;
+  cursor: pointer;
 }

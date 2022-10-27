@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import {LayoutModule} from "./layout/layout.module";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {ButtonModule} from "primeng/button";
+import {ToolbarModule} from "primeng/toolbar";
 
 @NgModule({
   declarations: [
@@ -10,7 +13,10 @@ import {LayoutModule} from "./layout/layout.module";
   ],
   imports: [
     BrowserModule,
-    LayoutModule
+    LayoutModule,
+    BrowserAnimationsModule,
+    ButtonModule,
+    ToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

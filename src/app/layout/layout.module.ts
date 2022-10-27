@@ -4,9 +4,9 @@ import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
 import {CarouselModule} from "primeng/carousel";
 import {RouterModule} from "@angular/router";
-import {ButtonModule} from 'primeng/button';
-
-
+import {ButtonModule} from "primeng/button";
+import {ToolbarModule} from "primeng/toolbar";
+import {InputTextModule} from "primeng/inputtext";
 
 @NgModule({
   declarations: [
@@ -21,7 +21,9 @@ import {ButtonModule} from 'primeng/button';
     CommonModule,
     CarouselModule,
     RouterModule,
-    ButtonModule
+    ButtonModule,
+    ToolbarModule,
+    InputTextModule
   ]
 })
 export class LayoutModule {

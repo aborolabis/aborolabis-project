@@ -1,1 +1,16 @@
-<p>header works!</p>
+<p-toolbar>
+  <div class="p-toolbar-group-left">
+
+  </div>
+
+  <div class="p-toolbar-group-right">
+    <div [@goSearchingMode]="searching ? 'searchingMode' : 'normalMode'">
+      <form id="content">
+        <input type="text" name="input" class="input lens" >
+      </form>
+    </div>
+    <span class="pi pi-times-circle" [@goSearchingMode]="searching ? 'searchingMode' : 'normalMode'" (click)="searching=false"></span>
+    <span class="pi pi-search" [@goSearchingMode]="!searching ? 'searchingMode' : 'normalMode'" (click)="searching=true"></span>
+    <span class="pi pi-calendar"></span>
+  </div>
+</p-toolbar>
