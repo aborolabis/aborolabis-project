@@ -4,6 +4,8 @@ import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
 import {CarouselModule} from "primeng/carousel";
 import {RouterModule} from "@angular/router";
+import {ButtonModule} from 'primeng/button';
+
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import {RouterModule} from "@angular/router";
   imports: [
     CommonModule,
     CarouselModule,
-    RouterModule
+    RouterModule,
+    ButtonModule
   ]
 })
 export class LayoutModule {

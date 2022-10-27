@@ -7,9 +7,10 @@ hr{
 .footage {
   margin-left: auto;
   margin-right: auto;
+  border-radius: 25px;
   width: 300px;
   height: 100px;
-  background-color: antiquewhite;
+  background-color: rgba(255, 127, 80, 0.2);
 }
 
 .footageText {
@@ -19,11 +20,11 @@ hr{
   position: center;
   text-align: center;
   display: block;
-  padding-top: 5px;
 }
 
 .link-toolbar {
   position: relative;
+  padding-bottom: 5px;
   padding-top: 7%;
   text-align: center;
   display: block;
