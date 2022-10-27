@@ -5,15 +5,26 @@ hr{
 }
 
 .footage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 100px;
+  background-color: antiquewhite;
+}
+
+.footageText {
   font-family: Georgia, serif;
   font-size: 15px;
   color: coral;
   position: center;
   text-align: center;
   display: block;
+  padding-top: 5px;
 }
 
 .link-toolbar {
+  position: relative;
+  padding-top: 7%;
   text-align: center;
   display: block;
 }
@@ -21,5 +32,5 @@ hr{
 .link-icon {
   color: coral;
   font-size: 150%;
-  margin: 1% 1% 1% 1%;
+  margin: 2% 2% 2% 2%;
 }
